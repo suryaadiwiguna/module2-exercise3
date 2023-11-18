@@ -1,0 +1,281 @@
+div {
+  background-color: transparent;
+  /* border: 1px solid black; */
+}
+
+a {
+  text-align: left;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: 'Oswald', 'sans-serif';
+  padding-bottom: 25px;
+  background-color: transparent;
+}
+
+h2 {
+  background-color: transparent;
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+
+h3 {
+  background-color: transparent;
+  font-family: 'Oswald';
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+
+.section-yellow {
+  background-color: #FBD35F;
+  padding: 0 5vw
+}
+
+.section-white {
+  background-color: rgb(255, 255, 255);
+  padding: 0 5vw
+}
+
+.container {
+  max-width: 1028px;
+}
+
+.profile {
+  padding: 60px 0;
+}
+
+.profile-top {
+  text-align: center;
+}
+
+.navbar {
+  /* background-color: white; */
+  width: 100%;
+  max-width: 1028px;
+  height: fit-content;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed;
+  top: 0; */
+
+  /* position: sticky; */
+  /* border: 1px solid black; */
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.website-logo {
+  height: 30px;
+  margin-left: 0px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.navbar-left {
+  width: 100%;
+  text-align: left;
+  /* background-color: antiquewhite; */
+}
+
+.hamburger {
+  background-color: white;
+  width: 2rem;
+  height: 1.7rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+  margin-right: 15px;
+}
+
+.burger {
+  width: 1.5rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  background-color: black;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+}
+
+.yellow {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #FBD35F; */
+  /* border: 1px solid black; */
+
+
+}
+
+.left-box {
+  width: 100%;
+  height: 500px;
+  /* background-color: transparent; */
+  background-image: url('./assets/potrait.png');
+  text-align: center;
+  /* border: 1px solid black; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.right-box {
+  /* display: flex; */
+  width: 100%;
+  /* max-height: 400px; */
+  /* background-color: transparent; */
+  /* border: 1px solid black; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: stretch; */
+  /* padding-right: 20px; */
+}
+
+.right-box div {
+  width: 80%;
+  margin-right: 20%;
+  /* background-color: transparent; */
+  /* border: 1px solid black; */
+  margin: 5px 0;
+
+}
+
+.right-box .hello {
+  background-color: white;
+}
+
+
+
+.heading {
+  font-size: 65px;
+  font-family: 'Oswald', 'sans-serif';
+  padding: 10px;
+  /* font-weight: 800; */
+}
+
+.sub-title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.introduction p {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 36px;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px 52px;
+  font-family: "Open Sans", 'sans-serif';
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0.3cap;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.three-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+
+
+p {
+  background-color: transparent;
+  font-family: 'Open Sans';
+  font-size: 16px;
+
+}
+
+.about-me p {
+  line-height: 2.5cap;
+}
+
+p b {
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 4cap;
+}
+
+.round-frame {
+  border-radius: 50%;
+  width: 239px;
+  height: 239px;
+  background-color: #FBD35F;
+  background-image: url('./assets/potrait.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 25px;
+}
+
+/* IDEA SECTION */
+
+.idea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.idea-right-box {
+  background-image: url('./assets/idea.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.idea-left-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.capabilities {
+  padding: 80px 0;
+}
+
+.capabilities-bottom {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+}
+
+.capabilities-bottom div {
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  background-color: #F2F2F2;
+  box-shadow: 4px 4px #E5E5E5;
+}
+
+.capabilities-top {
+  text-align: center;
+}
+
+.capabilities-ul {
+  background-color: transparent;
+  padding-left: 20px;
+  list-style-type: '—';
+  text-indent: 20px;
+  line-height: 1.7em;
+}
