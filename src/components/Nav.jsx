@@ -1,6 +1,6 @@
 import websiteLogo from '../assets/logo.svg'
 
-function NavBar() {
+function Nav() {
     return (
         <div id='sticky'>
             <div >
@@ -24,4 +24,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default Nav

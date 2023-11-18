@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import NavBar from './components/navbar.jsx'
+import './App.css'
+import Nav from './components/nav.jsx'
 import Heading from './components/Heading.jsx'
 import Profile from './components/Profile.jsx'
 import Idea from './components/Idea.jsx'
@@ -9,7 +10,7 @@ import Capabilities from './components/Capabilities.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <NavBar />
+    <Nav />
     <Heading />
     <Profile />
     <Idea />
