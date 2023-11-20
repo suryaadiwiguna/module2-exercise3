@@ -1,4 +1,4 @@
-import websiteLogo from '../assets/logo.svg'
+import website_logo from '../assets/logo.svg'
 
 function NavBar() {
     return (
@@ -7,10 +7,10 @@ function NavBar() {
                 <div className='navbar'>
                     <div className='navbar-left'>
                         <a href='/'>
-                            <img src={websiteLogo} className='website-logo' />
+                            <img src={website_logo} className='website-logo' />
                         </a>
 
-                    </div>
+                    </div >
 
                     <div className='hamburger'>
                         <div className='burger burger1' />
